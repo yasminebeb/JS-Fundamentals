@@ -18,7 +18,7 @@
 
 // }
 
-const args = "gfjh";
+const args = "Best School";
 
 if (args.length === 0) {
   console.log("No argument");
