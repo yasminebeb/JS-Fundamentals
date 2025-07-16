@@ -1,28 +1,8 @@
-// const mypass ='ert'
+const args = process.argv.length;
 
-
-// if (mypass.length > 6  &&  mypass.includes ("@"))
-// {
-// console.log('No argument');
-
-// }
-
-// else if (mypass.length > 6 )
-// {
-// console.log('Argument found');
-
-// }
-// else
-// {
-// console.log('Argument found');
-
-// }
-
-const args = "Best School";
-
-if (args.length === 0) {
+if (args <= 2) {
   console.log("No argument");
-} else if (args.length === 1) {
+} else if (args === 3) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");

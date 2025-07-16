@@ -1,7 +1,7 @@
-const fl = "C is fun";
-const sl = "Python is cool";
-const thl = "JavaScript is amazing";
+const line1 = "C is fun";
+const line2 = "Python is cool";
+const line3 = "JavaScript is amazing";
 
-console.log (fl);
-console.log (sl);
-console.log (thl);
+console.log(line1);
+console.log(line2);
+console.log(line3);
