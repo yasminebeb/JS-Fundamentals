@@ -1,19 +1,27 @@
 
 
 
-const arg ='School School';
+// const arg ='School School';
 
-if (arg ==='School School')
+// if (arg ==='School School')
 
-     {
-  console.log('No argument');
-}
+//      {
+//   console.log('No argument');
+// }
 
 
-const arg2 ='School';
+// const arg2 ='School';
 
-if (arg2 ==='School School')
+// if (arg2 ==='School School')
 
-     {
-  console.log('No argument');
+//      {
+//   console.log('No argument');
+// }
+
+const arg = process.argv[2];
+
+if (arg === undefined) {
+  console.log("No argument");
+} else {
+  console.log(arg);
 }
