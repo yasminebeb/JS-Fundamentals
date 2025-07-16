@@ -1,5 +1,10 @@
-const arg = 56;
 
-if ( arg > 5 ) {
+
+
+const arg ='School School';
+
+if (arg ==='School School')
+
+     {
   console.log('No argument');
 }
